@@ -1,0 +1,79 @@
+body {
+    margin: auto;
+    background: #1B244A;
+    justify-content: center;
+    text-align: center;  
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 20px auto;
+}
+
+h2 {
+    padding: 40px 20px;
+    font-size: 10em;
+    font-style: normal;
+    font-weight: 700;
+    color: #F94F6D;
+    background-color: black;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+    border-radius: 15px;
+    border: 7px solid white;
+    margin: auto;
+}
+
+.team-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scoreboard {
+    margin: 0 auto;
+    width: 288px;
+}
+
+button {
+    cursor: pointer;
+    width: 70px;
+    height: 50px;
+    padding: 8px;
+    color: whitesmoke;
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    background: none;
+    margin: 20px 10px;
+}
+
+.scorebtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 288px;
+}
+
+button:hover {
+    background-color: rgb(42, 29, 126);
+}
+
