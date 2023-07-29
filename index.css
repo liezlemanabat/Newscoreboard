@@ -78,3 +78,29 @@ button:hover {
     background-color: rgb(42, 29, 126);
 }
 
+.new-btn {
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;  
+}
+
+#new-game {
+    margin: auto;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: Verdana;
+    padding: 5px;
+}
+
+#end-game {
+    margin: auto;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: Verdana;
+    padding: 5px;
+}
