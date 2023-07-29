@@ -11,9 +11,9 @@
                     <h2 id="home-pts">0</h2>
                 </div>
                 <div class="scorebtn"> 
-                    <button id="one-pt" onclick="addHomeOnePt()">+1</button>
-                    <button id="two-pts" onclick="addHomeTwoPts()">+2</button>
-                    <button id="three-pts" onclick="addHomeThreePts()">+3</button>
+                    <button id="one-pt" onclick="addToHome(1)">+1</button>
+                    <button id="two-pts" onclick="addToHome(2)">+2</button>
+                    <button id="three-pts" onclick="addToHome(3)">+3</button>
                 </div>
             </div>
             <div class="team-container">
@@ -22,12 +22,16 @@
                     <h2 id="guest-pts">0</h2>
                 </div>
                 <div class="scorebtn">
-                    <button id="one-pt" onclick="addGuestOnePt()">+1</button>
-                    <button id="two-pts" onclick="addGuestTwoPts()">+2</button>
-                    <button id="three-pts" onclick="addGuestThreePts()">+3</button>
+                    <button id="one-pt" onclick="addToGuest(1)">+1</button>
+                    <button id="two-pts" onclick="addToGuest(2)">+2</button>
+                    <button id="three-pts" onclick="addToGuest(3)">+3</button>
                 </div>
             </div>
         </div> 
+        <div class="new-btn">
+            <button id="new-game" onclick="newGame()">New Game</button>
+            <button id="end-game" onclick="endGame()">End Game</button>
+        </div>
             <script src="index.js"></script>
     </body>
 </html>
