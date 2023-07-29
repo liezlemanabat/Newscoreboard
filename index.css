@@ -36,7 +36,7 @@ h2 {
     width: 800px;
     border-radius: 15px;
     border: 7px solid white;
-    margin: auto;
+    margin: 50px auto;
 }
 
 .team-container {
@@ -82,7 +82,7 @@ button:hover {
     width: 450px;
     display: flex;
     justify-content: center;
-    margin: 0 auto;  
+    margin: 50px auto;  
 }
 
 #new-game {
